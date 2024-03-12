@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" style="background: aquamarine">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylez.css" />
+        <title>Music</title>
+    </head>
+    <body>
+        <script src="Javascript.js"></script>
+
+        <h1>Favorite Albums</h1>
+
+        <br><br>
+
+        <div>
+            Below are some of my favorite albums, click on the corresponding button<br>
+            to view a preview of the album and to learn more about it. Then press the <br>
+            button again to hide it.<br>
+        </div>
+        <br>
+
+        <div id="AlbumCollage">
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/Miseducation.jpg" width="250" height="250" alt="Miseducation">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('MiseducationEmbed')">Miseducation Of Lauryn Hill</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/Casiopeia.png" width="250" height="250" alt="Casiopeia">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('CasiopeiaEmbed')">Casiopeia</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/TheStranger.jpg" width="250" height="250" alt="TheStranger">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('TheStrangerEmbed')">The Stranger</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/Keys.jpg" width="250" height="250" alt="Keys">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('KeysEmbed')">Keys</button>
+                </figcaption>
+            </figure>
+
+            <br>
+
+            <div hidden id="MiseducationEmbed">
+                <br><br>
+                <p>
+                    <br>
+                    The Miseducation of Lauryn Hill is an album with a Masterful blend<br>
+                    of R&B, Hip-Hop, Reggae, Blues, and traces of other genres. Released <br>
+                    in 1998 during the 90s golden age of hip-hop Lauryn Hill took her<br>
+                    musical experience and expertise shown in her previous work with the<br>
+                    Fugees and takes it to a whole new level.<br><br>
+                    Favorite Tracks: Ex Factor, Nothing Even Matters, Tell Him, To Zion, Can't Take my eyes off of you<br><br>
+                </p>
+                <br><br>
+                <iframe class="Embed" style="border-radius:12px" src="https://open.spotify.com/embed/album/1BZoqf8Zje5nGdwZhOjAtD?utm_source=generator" width="20%" height="210" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <br>
+            </div>
+
+            <div hidden id="CasiopeiaEmbed">
+                <br><br>
+                <p>
+                    <br>
+                    Casiopeia is a Japanese Jazz Fusion band that formed in 1976 with 4 intial<br>
+                    members:
+                    <ul>
+                        <li> Guitarist:     Issei Noro</li>
+                        <li> Bassist:       Tetsuo Sakurai</li>
+                        <li> Drummer:       Tohru Suzuki</li>
+                        <li> Keyboardist:   Hidehiko Koike</li>
+                    </ul>
+
+                    <br>
+                    As a group, even with periodic member changes, Casiopeia has remained a vital<br>
+                standpoint for jazz fusion bands and the genre as a whole. They are the only band<br>
+                that I personally listen to live recordings of as they normally have a great amount<br>
+                amount of energy in their playing and are overall fantastic.<br>
+
+                </p>
+
+                <p> From their self titled album my fav tracks are: Track 2, Track 3</p>
+
+
+                <iframe class="Embed" style="border-radius:12px" src="https://open.spotify.com/embed/album/3uFgYgCEvCSACjB8XHl3hb?utm_source=generator" width="20%" height="210" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <iframe hidden id="TheStrangerEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/3IILMjMMnoN2sKzgesX8KV?utm_source=generator" width="20%" height="210" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="KeysEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/76vpmS3ZCGm4hN8QtbnedX?utm_source=generator" width="20%" height="210" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br><br><br>
+
+            <!-- Second Row of Album Figures !-->
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/BatOutOfHEll.jpg" width="250" height="250" alt="BatOutOfHell">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('BatOutOfHellEmbed')">Bat Out Of Hell</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/AFKG.jpg" width="250" height="250" alt="AFKG">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('AFKGEmbed')">Asian Kung-Fu Generation</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/AllMyHeroes.jpg" width="250" height="250" alt="AllMyHeroes">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('AllMyHeroesAreCornballsEmbed')">All My Heroes Are Cornballs</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/Best%20Buds.jpg" width="250" height="250" alt="BestBuds">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('BestBudsEmbed')">Best Buds</button>
+                </figcaption>
+            </figure>
+
+            <br>
+            <iframe hidden id="BatOutOfHellEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/6mvI80w5r78niBmwtu7RF9?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="AFKGEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="AllMyHeroesAreCornballsEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/5ilsl5R2lGACTnPZMKIp7o?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="BestBudsEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/0KzElSxcfAvleUIuOg0TOQ?utm_source=generator" width="40%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br>
+
+            <br><br><br>
+
+            <!-- Third Row of Album Figures/embeds !-->
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/AwakenMyLove.jpg" width="250" height="250" alt="Awaken">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('AwakenEmbed')">Awaken! My Love</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/e.png" width="250" height="250" alt="e">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('eEmbed')">e</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/ModalSoul.jpg" width="250" height="250">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('ModalSoulEmbed')">Modal Soul</button>
+                </figcaption>
+            </figure>
+
+            <figure class="AlbumFigure">
+                <img class="AlbumPic" src="Pictures/AlbumPics/Jubilee.jpg" width="250" height="250">
+                <figcaption>
+                    <button type="button" onclick="ShowHide('JubileeEmbed')">Jubilee</button>
+                </figcaption>
+            </figure>
+
+            <br>
+            <iframe hidden id="AwakenEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/4Carzsnpd6yvuHZ49I0oz8?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="eEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/443fOM9A1XN8A0HImpYKVT?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="ModalSoulEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/6nVACH6a27eOWiumAJhDWS?utm_source=generator" width="20%" height="210" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe hidden id="JubileeEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/1uD1kdwTWH1DZQZqGKz6rY?utm_source=generator" width="40%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br><br>
+
+            <!-- Final Row of Album Figures !-->
+            <img class="AlbumPic" src="Pictures/AlbumPics/NEVERENDINGSUMMER.jpg" width="250" height="250">
+            <img class="AlbumPic" src="Pictures/AlbumPics/Exuma.jpg" width="250" height="250">
+            <img class="AlbumPic" src="Pictures/AlbumPics/MeltMyEyez.jpg" width="250" height="250">
+            <img class="AlbumPic" src="Pictures/AlbumPics/GreatestHits.jpg" width="250" height="250">
+
+            <br>
+
+            <iframe hidden id="SummerEmbed" style="border-radius:12px" src="https://open.spotify.com/embed/album/24sd1ZTrjjabj0A54XK0RP?utm_source=generator" width="40%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        </div>
+        <br><br><br><br><br>
+
+            <!-- Youtube Video Embed !-->
+        <h2 style="color: green">Music Not On Major Streaming Services </h2>
+        <p>
+            <br>
+            There is a lot of music that is unavailable on streaming services. Either due
+            to licensing issues, artist preference, or no official release. <br>
+            One of the major sites with this music is YouTube. Here are some examples of albums not
+            on any major streaming service.<br><br>
+        </p>
+
+        <p style="border: none" id="YTFigureCollage">
+            <div id="YTEmbedContainer">
+                    <br><br>
+                    <figure>
+                        <iframe width="300" height="315" src="https://www.youtube-nocookie.com/embed/MzYD56hKF-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption>Masayoshi Takanaka - The Rainbow Goblins</figcaption>
+                    </figure>
+
+                    <figure>
+                        <iframe width="300" height="315" src="https://www.youtube.com/embed/videoseries?list=PLuiczBQhAY_iznTpd9QjNGwWa5e2vov7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption>Joji - Chloe Burbank</figcaption>
+                    </figure>
+
+                    <figure>
+                        <iframe width="300" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKmth_ELXsKjXeutQqFz7LgWUiVxw_dFy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption>Kanye West - Yandhi</figcaption>
+                    </figure>
+                    <br><br>
+                </div>
+
+            <br>
+
+            NOTE: Embeded YouTube videos are 3 figures set inline with figcaptions on each
+
+        <br><br>
+            <p>
+                <br>
+                The three albums above are fantastic, and each showcase one of my reasons for it not being on<br>
+                streaming services. Masayoshi Takanaka's The Rainbow Goblines is only available on YouTube along with<br>
+                some of his other albums due to restrictions of his record label or those projects.<br>
+                Meanwhile, Chloe Burbank is a realease by Joji before he had retired from being Filthy Frank<br>
+                on YouTube. Since this was a self released album under no label it has not been<br>
+                put onto major streaming platforms. And finally Kanye West's project Yandhi. It was an album<br>
+                set to release on September 29, 2018, but after the date had passed he just never released it.<br>
+                Now it exists as a sort of mixtape perpetuated by fans who use leaked versions of the tracks<br>
+                as the material. Because of this process you can find many versions of Yandhi as well. All at<br>
+                different points of the album being created and in different track combinations.<br>
+                <br><br>
+            </p>
+
+        <br><br><br><br>
+
+            <div id="Links">
+                <a href="Music.html">Music</a><br>
+                <a href="start2.html">start2</a><br>
+                <a href="MoviesTV.html">MoviesTV</a><br>
+                <a href="Revolution.html">Revolution</a><br>
+                <a href="Javascript.html">Java Learning</a><br>
+                <a href="AboutMe.html">About Me</a><br>
+                <a class="link" href="Homepage.html" id="homeArrow">
+                    <img src="Pictures/Icons/sun.png" width="50" height="50"></a><br>
+            </div>
+    </body>
+</html>
