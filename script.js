@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-    const apiKey = 'YOUR_API_KEY';
-    const city = 'YOUR_CITY_NAME'; // Replace with the city name you want to get the forecast for
+    const apiKey = '4b1a6ebf5a0e9f3e6197c542169d12eb';
+    const city = 'Madison'; // Replace with the city name you want to get the forecast for
 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
