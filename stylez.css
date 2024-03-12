@@ -7,6 +7,19 @@ body {
     margin: 0;
 }
 
+#weather-widget {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 P {
     text-align: center;
     margin: 0 auto;
