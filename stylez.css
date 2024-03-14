@@ -8,22 +8,30 @@ body {
     margin: 0;
 }
 
+#weather-widget-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
 #weather-widget {
     text-align: center;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
 }
 
 #weather-info {
     margin-top: 20px;
     font-size: 18px;
 }
+
+#weather-widget h2 {
+    text-align: center;
+    margin: 0 auto; /* Centering the title within the widget */
+}
+
 
 P {
     text-align: center;
