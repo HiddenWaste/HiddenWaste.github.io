@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const temperature = Math.round(data.main.temp - 273.15); // Convert temperature to Celsius
             const description = data.weather[0].description;
 
-            weatherInfo.innerHTML = `Temperature: ${temperature}°C, Description: ${description}`;
+            weatherInfo.innerHTML = `Current Weather in ${city}\n-----------------------\n Temperature: ${temperature}°C, Description: ${description}`;
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
