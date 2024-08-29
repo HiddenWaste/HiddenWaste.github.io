@@ -1,10 +1,15 @@
+# Bar Book Web App
 
+this is a web app I've created to try and make both a barbook and slideshow display of one for the local bar I work at. 
 
+while currently very much a prototype, I can already imagine I'm in a good position to make a working/show able prototype this week.
 
-# Basics
+## Features
+ (N) - Not Implemented
+ (WIP) - Work in Progress
 
-- This is to both function as my personal website and portfolio
-
-- I plan to blog, and add more widgets as I develop it
-
-- First is to Make it mine, look neat, and showcase the projects I already have
+ - Full Screen Slideshow (WIP)
+ - Grid style layout
+     - make searchable (N)
+     - make filter able (N)
+ - Form to add a new drink to the data (N)
